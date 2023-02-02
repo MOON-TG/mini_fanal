@@ -1,27 +1,4 @@
-document.querySelector('.robot_input').addEventListener('submit', (e) => {
-  const bat_fig = e.target.battery.value
-  
-  bat_prog_bar.style.width = `${bat_fig}%`
-  
-  
-  if(bat_fig < 21){
-  bat_prog.style.backgroundColor = "#ff0000";
-  color_box.value = "#ff0000";
-  }else if(bat_fig < 41){
-  bat_prog.style.backgroundColor = "#ff8000";
-  color_box.value = "#ff8000";
-  }else if(bat_fig < 61){
-  bat_prog.style.backgroundColor = "#ffff00";
-  color_box.value = "#ffff00";
-  }else if(bat_fig < 81){
-  bat_prog.style.backgroundColor = "#80ff00";
-  color_box.value = "#80ff00";
-  }else if(bat_fig <= 100){
-  bat_prog.style.backgroundColor = "#00ff00";
-  color_box.value = "#00ff00";
-  }
-  })
-  
+
   
       var $setRows = $('#setRows');
   
